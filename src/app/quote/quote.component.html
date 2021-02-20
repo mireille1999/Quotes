@@ -1,5 +1,5 @@
 <body>
-    <h1 class="quo text-center">My Quotes</h1>
+    <h1 class="quo text-center"> share your thoughts ,Get a quote to remember.</h1>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -8,7 +8,7 @@
       <div class="col-md-6">
         <div *ngFor='let quote of quotes;let i = index'>
           <li>{{quote.quote}}</li>
-          <button (click)='toggleDetails(i)' class="btn btn-outline-success"> More</button>
+          <button (click)='toggleDetails(i)' class="btn btn-outline-success"> View More</button>
           <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
           </app-quote-details>
         </div>

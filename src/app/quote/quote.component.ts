@@ -8,9 +8,9 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1, '"Do not settle for less."', 'Mireille', 'Mireille', new Date(2021,2,19), 0, 0),
-    new Quote(2, '"Make everyday a little less ordinary."', 'Amanda', 'Amanda', new Date(2021,2,20), 0, 0),
-    new Quote(3, '"You did not come this far to only come this far."', 'unknown', 'Fidela', new Date(2021,1,1), 0, 0),
+    new Quote(1, '"Aspire to inspire before we expire."', 'Mireille Mathew', 'Mimi', new Date(2021,2,19), 0, 0),
+    new Quote(2, '"Every moment is a fresh beginning."', 'Amanda', 'Unknown', new Date(2021,2,20), 0, 0),
+    new Quote(3, '"If you can dream it, you can do it."', ' Walt Disney', 'Disney', new Date(2021,1,1), 0, 0),
   ];
   toggleDetails(index : any){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;

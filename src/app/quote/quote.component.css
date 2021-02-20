@@ -2,7 +2,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
-    background: linear-gradient(45deg, rgba(119, 177, 92, 0.4), rgba(162, 180, 79, 0.4) 100%);
+    background-image: url("https://cdn.wallpapersafari.com/48/55/v3uCfB.jpg");
+    background-repeat: no-repeat, repeat;
 }
 .container-fluid{
     height: 150px;
@@ -12,6 +13,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     padding-top: 25px;
+    color: white;
 }
 .row{
     margin-top: 50px;
@@ -19,4 +21,5 @@ h1{
 li{
     padding-top: 20px;
     font-size: 20px;
+    color: white;
 }

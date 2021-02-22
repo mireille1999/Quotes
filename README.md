@@ -20,7 +20,7 @@ This web page is going to display quotes written by someone through the form on 
 
 
 ## Github Pages link
-You can view the live application by 
+You can view the live application by https://mireille1999.github.io/Quotes/
 ## Contact information
 *mmuhawenimana920@daviscollege.com
 
